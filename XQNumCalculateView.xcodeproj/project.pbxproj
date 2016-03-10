@@ -13,6 +13,8 @@
 		186C6F7B1C913C2C00ED0FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C6F791C913C2C00ED0FBC /* Main.storyboard */; };
 		186C6F7D1C913C2C00ED0FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C6F7C1C913C2C00ED0FBC /* Assets.xcassets */; };
 		186C6F801C913C2C00ED0FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C6F7E1C913C2C00ED0FBC /* LaunchScreen.storyboard */; };
+		186C6F8B1C913C4200ED0FBC /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C6F881C913C4200ED0FBC /* UIColor+Random.m */; };
+		186C6F901C913C8600ED0FBC /* XQNumCalculateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C6F8F1C913C8600ED0FBC /* XQNumCalculateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		186C6F7C1C913C2C00ED0FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186C6F7F1C913C2C00ED0FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186C6F811C913C2C00ED0FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C6F871C913C4200ED0FBC /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		186C6F881C913C4200ED0FBC /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		186C6F8E1C913C8600ED0FBC /* XQNumCalculateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQNumCalculateView.h; sourceTree = "<group>"; };
+		186C6F8F1C913C8600ED0FBC /* XQNumCalculateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQNumCalculateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		186C6F6F1C913C2C00ED0FBC /* XQNumCalculateView */ = {
 			isa = PBXGroup;
 			children = (
+				186C6F8D1C913C8600ED0FBC /* XQNumCalculateView */,
 				186C6F731C913C2C00ED0FBC /* AppDelegate.h */,
 				186C6F741C913C2C00ED0FBC /* AppDelegate.m */,
 				186C6F761C913C2C00ED0FBC /* ViewController.h */,
 				186C6F771C913C2C00ED0FBC /* ViewController.m */,
+				186C6F871C913C4200ED0FBC /* UIColor+Random.h */,
+				186C6F881C913C4200ED0FBC /* UIColor+Random.m */,
 				186C6F791C913C2C00ED0FBC /* Main.storyboard */,
 				186C6F7C1C913C2C00ED0FBC /* Assets.xcassets */,
 				186C6F7E1C913C2C00ED0FBC /* LaunchScreen.storyboard */,
@@ -77,6 +86,15 @@
 				186C6F711C913C2C00ED0FBC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186C6F8D1C913C8600ED0FBC /* XQNumCalculateView */ = {
+			isa = PBXGroup;
+			children = (
+				186C6F8E1C913C8600ED0FBC /* XQNumCalculateView.h */,
+				186C6F8F1C913C8600ED0FBC /* XQNumCalculateView.m */,
+			);
+			path = XQNumCalculateView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186C6F8B1C913C4200ED0FBC /* UIColor+Random.m in Sources */,
+				186C6F901C913C8600ED0FBC /* XQNumCalculateView.m in Sources */,
 				186C6F781C913C2C00ED0FBC /* ViewController.m in Sources */,
 				186C6F751C913C2C00ED0FBC /* AppDelegate.m in Sources */,
 				186C6F721C913C2C00ED0FBC /* main.m in Sources */,
@@ -264,6 +284,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XQNumCalculateView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yummycate.XQNumCalculateView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XQNumCalculateView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yummycate.XQNumCalculateView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
