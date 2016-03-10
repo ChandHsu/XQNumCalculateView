@@ -50,6 +50,10 @@ typedef void(^XQNumCalculateViewChangeBlock)(int result);
 @property (nonatomic, strong) UIColor *calBtnDisabledBgColor;
 /********   数字label的颜色 默认白色 *********/
 @property (nonatomic, strong) UIColor *numLabelBgColor;
+/********   加减按钮字体大小   默认系统 *********/
+@property (nonatomic, strong) UIFont *calBtnTextFont;
+/********   数字字体大小   默认系统 *********/
+@property (nonatomic, strong) UIFont *numLabelTextFont;
 /********   是否自动设置按钮enabled 默认True   *********/
 @property (nonatomic, assign) BOOL autoEnableCal;
 

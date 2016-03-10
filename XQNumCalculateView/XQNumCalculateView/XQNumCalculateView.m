@@ -228,6 +228,16 @@
     _numLabelBgColor = numLabelBgColor;
     self.numLabel.backgroundColor = numLabelBgColor;
 }
+- (void)setCalBtnTextFont:(UIFont *)calBtnTextFont{
+    _calBtnTextFont = calBtnTextFont;
+    self.subtractBtn.titleLabel.font = calBtnTextFont;
+    self.addBtn.titleLabel.font = calBtnTextFont;
+    
+}
+- (void)setNumLabelTextFont:(UIFont *)numLabelTextFont{
+    _numLabelTextFont = numLabelTextFont;
+    self.numLabel.font = numLabelTextFont;
+}
 
 @end
 #pragma mark - 华丽的分割线 *****************************************
