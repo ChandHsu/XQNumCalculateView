@@ -55,7 +55,7 @@
     XQNumCalculateView *view4 = [[XQNumCalculateView alloc] initWithFrame:CGRectMake(170, 180, 30, 150)];
     view4.numViewBorderColor = [UIColor randomColor];
     [self.view addSubview:view4];
-    view4.type = XQNumCalculateViewTypeBorderEvery;
+    view4.type = XQNumCalculateViewTypeBorderOut;
     
 
 }

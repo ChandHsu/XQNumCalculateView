@@ -218,9 +218,16 @@
         self.layer.borderColor = self.numViewBorderColor.CGColor;
         self.layer.borderWidth = 0.5f;
         self.layer.cornerRadius = 5.f;
-    }else{
+    }else if(type == XQNumCalculateViewTypeBorderEvery){
         self.layer.cornerRadius = 0;
         self.layer.borderWidth = 0;
+    }else{
+        self.layer.borderColor = self.numViewBorderColor.CGColor;
+        self.layer.borderWidth = 0.5f;
+        self.layer.cornerRadius = 5.f;
+        self.subtractBtn.layer.borderWidth = 0;
+        self.addBtn.layer.borderWidth = 0;
+        self.numLabel.layer.borderWidth = 0;
     }
     
 }

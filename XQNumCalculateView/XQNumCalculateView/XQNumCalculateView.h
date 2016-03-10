@@ -10,7 +10,8 @@
 
 typedef enum{
     XQNumCalculateViewTypeBorderAll,
-    XQNumCalculateViewTypeBorderEvery
+    XQNumCalculateViewTypeBorderEvery,
+    XQNumCalculateViewTypeBorderOut
 }XQNumCalculateViewBorderType;
 
 
