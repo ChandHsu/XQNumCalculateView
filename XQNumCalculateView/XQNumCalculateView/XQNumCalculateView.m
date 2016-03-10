@@ -151,6 +151,8 @@
         self.changeBlock(self.numLabel.text.intValue);
     }
     
+    self.resultNum = self.numLabel.text.intValue;
+    
 }
 - (void)setAutoEnableCal:(BOOL)autoEnableCal{
     _autoEnableCal = autoEnableCal;
